@@ -33,5 +33,6 @@ INSERT INTO test.names (name) VALUES ('World');
 ## Consome topic
 
 ```bash
-kafka-console-consumer -topic=cdc-test-names -brokers=kafka:9092
+kafka-console-consumer --topic cdc-test-names --bootstrap-server localhost:9092
+
 ```  
